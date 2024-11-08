@@ -1,0 +1,36 @@
+@media (max-width: 375px) {
+  body {
+    transform: translatey(0);
+  }
+  .perfume {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    /* border-radius: 0; */
+    margin: 2rem 0.5rem;
+  }
+  .img-container {
+    max-height: 250px;
+  }
+  img {
+    height: 100%;
+    /* width: 100%; */
+    object-fit: cover;
+  }
+  .description {
+    padding: 1.5rem;
+    padding-top: 0;
+    margin: 0;
+  }
+  h1 {
+    margin: 0 0 1rem;
+  }
+  .description h2 {
+    font-size: 2rem;
+  }
+  button {
+    justify-content: center;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+}
