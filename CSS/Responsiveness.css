@@ -1,3 +1,48 @@
+@media (max-width: 464px) {
+  body {
+    transform: translate(0);
+  }
+  .perfume {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    margin: 2.5rem 1rem;
+  }
+  .img-container {
+    height: 300px;
+  }
+  img {
+    object-fit: cover;
+  }
+  .description {
+    padding: 1.5rem;
+    padding-top: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 0.8rem;
+    margin: 0 0 1rem;
+  }
+  .description h2 {
+    width: 80%;
+    font-size: 2.2rem;
+  }
+  .description p {
+    font-size: 1rem;
+  }
+  .current-price {
+    font-size: 2rem;
+  }
+  .old-price {
+    font-size: 0.9rem;
+  }
+  button {
+    justify-content: center;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+}
+
 @media (max-width: 375px) {
   body {
     transform: translatey(0);
